@@ -1,0 +1,42 @@
+.background{
+    background-image: url(https://i.pinimg.com/736x/37/91/13/379113f9414cfdfa5ce5c5ea054450b5.jpg);
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    p{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 30px;
+        font-weight: 900;
+    }
+}
+.menu{
+    width: 98%;
+    margin: 10px auto;
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+.shop{
+    width: 98%;
+    margin: 10px auto;
+    font-size: 30px;
+}
+.prod_img{
+    object-fit: fill;
+    width: 100%;
+    padding: 0;
+}
+.row{
+    margin: 10px 0px;
+    
+}
+.prod{
+    align-items: center;
+}
+.aside{
+    height: fit-content;
+}
